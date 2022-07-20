@@ -1,0 +1,93 @@
+@font-face {   
+  font-family: 'glyph-sans';   
+  src: url(/fonts/RHSerif-Hairline.otf);
+}
+
+@font-face {   
+  font-family: 'glyph-serif';   
+  src: url(https://static1.squarespace.com/static/5c01b80fda02bca8e44e3131/t/62d71ca3c384124e1a371450/1658264739885/RHSerif-Regular.otf);
+}
+
+
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 10%);
+    line-height: 1.5;
+    font-family: 'glyph-sans', "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+  }
+  
+  .content-width {
+    max-width: 70ch;
+    width: calc(100% - 4rem);
+    margin: 0 auto;
+  }
+  
+  main {
+    margin-bottom: 4rem;
+  }
+  
+  header {
+    margin-bottom: 4rem;
+    padding: 2rem 0;
+    background-color: hsl(280, 50%, 40%);
+    border-bottom: 4px solid hsl(300, 50%, 50%);
+    color: hsl(300, 50%, 90%);
+  }
+  
+  header p {
+    color: hsl(300, 50%, 85%);
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    line-height: 1.25;
+  }
+  
+  h2, h3 {
+    color: hsl(280, 50%, 40%)
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 200;
+  }
+  
+  p {
+    font-size: 1.125rem;
+  }
+
+  @media screen and (min-width: 480px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  @media screen and (min-width: 680px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (min-width: 880px) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+  @media screen and (min-width: 1180px) {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+
+
